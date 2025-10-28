@@ -1,14 +1,9 @@
 @import "node_modules/bootstrap/scss/bootstrap";
 
-<<<<<<< Updated upstream
-$primary: #4a4e63;
-$dark: #183b44;
-=======
 $primary: #00B4D8;
 $dark: #183b44;
 $main: #E9ECEF;
 
->>>>>>> Stashed changes
 * {
     box-sizing: border-box;
 
@@ -16,7 +11,7 @@ $main: #E9ECEF;
 
 body {
     margin: 0;
-    background-color: #F8F9FA;
+
     color: #212529;
 }
 
@@ -25,13 +20,8 @@ body {
 
 
 .main-header {
-<<<<<<< Updated upstream
 
-    background-color:#cbcac8;
-=======
-    
-    background-color: #E9ECEF;
->>>>>>> Stashed changes
+    background-color:#E9ECEF;
     box-shadow: 0 2px 10px rgba(145, 145, 145, 0.3);
     font-size: 1.4rem;
 
@@ -62,6 +52,9 @@ body {
             color: #212529;
             font-weight: 600;
         }
+        .navhome {
+            color: #212529;
+        }
 
     }
 }
@@ -72,46 +65,31 @@ body {
     // padding: 20px;
     text-align: center;
     height: 100%;
-<<<<<<< Updated upstream
-    .img-1 {
-        max-height: 550px;
-        margin-top: 20px;
-        
-=======
 
     .img-1 {
         max-height: 550px;
         margin-top: 20px;
 
->>>>>>> Stashed changes
     }
 }
 
 .promo {
     min-height: 460px;
     margin-bottom: 110px;
-<<<<<<< Updated upstream
     .text {
-        margin-top: 100px ;
-=======
+        margin-top: 170px ;
 
-    .text {
-        margin-top: 170px;
 
->>>>>>> Stashed changes
     }
 }
 
 .clients {
     min-height: 80px;
     margin-bottom: 170px;
-<<<<<<< Updated upstream
-    .img-2 {
-=======
+    
 
     .img-2 {
 
->>>>>>> Stashed changes
         height: 100px;
     }
 }
@@ -126,13 +104,9 @@ body {
 .team {
     min-height: 360px;
     margin-bottom: 180px;
-<<<<<<< Updated upstream
-    .img-3 {
-=======
 
     .img-3 {
         background-color: $main;
->>>>>>> Stashed changes
         align-items: center;
         height: 350px;
         width: 290px;
@@ -142,23 +116,13 @@ body {
 .footer {
     min-height: 380px;
 }
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 .checkmark {
     color: green;
 
 }
-<<<<<<< Updated upstream
-.card-text {
-    font-size: 20px;
-}
-=======
 
 .card-text {
     font-size: 20px;
 }
 
 
->>>>>>> Stashed changes
