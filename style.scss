@@ -11,7 +11,7 @@ $main: #E9ECEF;
 
 body {
     margin: 0;
-
+    font-family: 'Poppins', sans-serif;
     color: #212529;
 }
 
@@ -20,8 +20,8 @@ body {
 
 
 .main-header {
-
-    background-color:#E9ECEF;
+    font-family: 'Poppins', sans-serif;
+    background-color: #E9ECEF;
     box-shadow: 0 2px 10px rgba(145, 145, 145, 0.3);
     font-size: 1.4rem;
 
@@ -52,6 +52,7 @@ body {
             color: #212529;
             font-weight: 600;
         }
+
         .navhome {
             color: #212529;
         }
@@ -76,8 +77,10 @@ body {
 .promo {
     min-height: 460px;
     margin-bottom: 110px;
+
     .text {
-        margin-top: 170px ;
+        margin-top: 170px;
+
 
 
     }
@@ -86,7 +89,7 @@ body {
 .clients {
     min-height: 80px;
     margin-bottom: 170px;
-    
+
 
     .img-2 {
 
@@ -95,17 +98,35 @@ body {
 }
 
 .pricing {
-    background-color: $main;
+
     min-height: 480px;
     margin-bottom: 235px;
     border-radius: solid 10px #000000;
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        transition: 0.3s;
+    }
+
+    ion-icon {
+        font-size: 27px;
+    }
 }
 
 .team {
     min-height: 360px;
     margin-bottom: 180px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    .team-member:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    }
 
     .img-3 {
+        border-radius: 15px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
         background-color: $main;
         align-items: center;
         height: 350px;
@@ -114,15 +135,38 @@ body {
 }
 
 .footer {
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
     min-height: 380px;
-}
-.checkmark {
-    color: green;
+    font-size: 22px;
+    background-color: #E9ECEF;
 
-}
+    .SocialMedia {
+        margin-left: 100px;
+        transform: translateY(25px);
+        .icon-text {
+            display: flex;
+            
+            gap: 8px;
+            font-size: 22px;
+            & ion-icon {
+                font-size: 30px;
+                
+            }
+        }
+    }
 
-.card-text {
-    font-size: 20px;
-}
+        
+        ion-icon {
+            font-size: 30px;
+        }
+}   
 
+    .checkmark {
+        color: green;
 
+    }
+
+    .card-text {
+        font-size: 20px;
+    }

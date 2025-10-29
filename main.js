@@ -8,10 +8,10 @@ window.addEventListener("scroll", function () {
     const navbar = document.getElementById("navbar");
 
     if (currentScroll > lastScrollTop) {
-        // скроллим вниз — скрываем navbar
+    
         navbar.style.top = "-80px";
     } else {
-        // скроллим вверх — показываем
+        
         navbar.style.top = "0";
     }
     lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
