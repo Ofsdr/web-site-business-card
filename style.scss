@@ -1,5 +1,6 @@
 @import "node_modules/bootstrap/scss/bootstrap";
 
+
 $primary: #00B4D8;
 $dark: #183b44;
 $main: #E9ECEF;
@@ -70,7 +71,13 @@ body {
     .img-1 {
         max-height: 550px;
         margin-top: 20px;
-
+        @media (max-width: 768px) {
+            display:none;
+        }
+        @media (max-width: 1200px) {
+            margin-top: 130px;
+            height: 380px;
+        }
     }
 }
 
@@ -80,7 +87,16 @@ body {
 
     .text {
         margin-top: 170px;
-
+        @media (max-width: 768px) {
+            margin-top: 110px;
+            margin-bottom: 100px;
+        }
+        .btn {
+            @media (max-width: 992px){
+                width: 200px;
+                height: 50px;
+            }
+        }
 
 
     }
@@ -140,10 +156,19 @@ body {
     min-height: 380px;
     font-size: 22px;
     background-color: #E9ECEF;
+    @media (max-width: 992px) {
+        margin-bottom: 30px;
+    }
 
     .SocialMedia {
         margin-left: 100px;
         transform: translateY(25px);
+        @media (max-width: 992px) {
+            margin-top: 20px;
+            margin-bottom: 30px;
+            transform: translateX(25px);
+            
+        }
         .icon-text {
             display: flex;
             
@@ -170,3 +195,4 @@ body {
     .card-text {
         font-size: 20px;
     }
+
